@@ -1,6 +1,6 @@
 import * as fs from "fs";
 
-const buffer = fs.readFileSync("./src/input.txt");
+const buffer = fs.readFileSync("./src/day6.txt");
 const fileContent = buffer.toString().split("");
 
 // console.log(fileContent);

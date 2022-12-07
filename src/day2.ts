@@ -1,6 +1,6 @@
 import * as fs from "fs";
 
-const buffer = fs.readFileSync("input.txt");
+const buffer = fs.readFileSync("day2.txt");
 const fileContent = buffer.toString().split("\n");
 
 let sum1 = 0;

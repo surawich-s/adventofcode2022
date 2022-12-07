@@ -5,7 +5,7 @@ import fileinput
 # Using fileinput.input() met
 sum = 0
 sumList = []
-for line in fileinput.input(files ='input.txt'):
+for line in fileinput.input(files ='day1.txt'):
     if line == '\n':
         sumList.append(sum)
         sum = 0
