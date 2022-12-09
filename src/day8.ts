@@ -1,6 +1,4 @@
 import * as fs from "fs";
-import { SocketAddress } from "net";
-import { getEnvironmentData } from "worker_threads";
 
 const buffer = fs.readFileSync("./src/day8.txt");
 const fileContent = buffer.toString().split("\n");
