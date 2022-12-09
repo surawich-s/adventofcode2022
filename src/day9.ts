@@ -29,24 +29,6 @@ function whereDaTailGone(fileContent: string[], length: number) {
         return arr;
     }
 
-    function followIt(head: number[], tail: number[], direction: string) {
-        switch (direction) {
-            case "U":
-                tail = [head[0], head[1] - 1];
-                break;
-            case "D":
-                tail = [head[0], head[1] + 1];
-                break;
-            case "R":
-                tail = [head[0] - 1, head[1]];
-                break;
-            case "L":
-                tail = [head[0] + 1, head[1]];
-                break;
-        }
-        return tail;
-    }
-
     for (let line of fileContent) {
         const commands = line.split(" ");
         const [direction, steps] = [commands[0], parseInt(commands[1])];
