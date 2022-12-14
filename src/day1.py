@@ -1,8 +1,7 @@
 
 # import fileinput
 import fileinput
-  
-# Using fileinput.input() met
+
 sum = 0
 sumList = []
 for line in fileinput.input(files ='day1.txt'):
